@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: peerasu/payment:$IMAGE_TAG
+        image: peerasu/payments:$IMAGE_TAG
         ports:
         - containerPort: 8085
         resources:
